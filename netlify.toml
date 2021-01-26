@@ -1,4 +1,4 @@
 [build]
-base = "path-to-react-app"
+base = "react-nice-resume"
 command = "npm run build"
 publish = "path-to-react-app/build"
