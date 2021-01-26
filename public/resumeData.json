@@ -1,0 +1,103 @@
+{
+  "main": {
+    "name":"James Seagram",
+    "description":"Welcome to my portfolio website.  Thank you so much for visiting",
+    "image":"profilepic.jpg",
+    "bio":"Front-end engineer with back-end knowledge and experience using react and node.js to create web applications.  Lover of all things outdoors.  Continually learning.  Curious about technology and where we are heading.",
+    "contactmessage":"I would love to get in contact with you.  Please fill out the form below to reach me via email.",
+    "email": "james.seagram@protonmail.com",
+    "phone": "(313) 820-0895",
+    "github":"https://github.com/jseagramiii",
+    "address":{
+      "street":"1300 Adams St",
+      "city":"Denver",
+      "state":"Colorado",
+      "zip": "80206"
+    },
+    "website": "https://james-seagram.herokuapp.com",
+    "resumedownload":"",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/jseagramiii",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Web development technology including: HTML5, Javascript, CSS, ReactJs, nodeJs, express, serverless technology, and CSS libraries/frameworks (Materialize, Chakra)",
+    "education":[
+      {
+        "school":"University of Montana",
+        "degree":"Bachelors of Science - Business Finance",
+        "graduated":"May 2019",
+        "description":"Knowledge of financial markets, investment strategy, and the practical application of economic theories and analysis. My experience at UM was one of the best times of my life. Go Griz! "
+      }
+    ],
+    "work":[
+      {
+        "company":"Janus Henderson Investors",
+        "title":"Senior Investor Services Specialist",
+        "years":"September 2019 - July 2019",
+        "description":"I began as a contract employee, ranking at the top of my class for three consecutive months until I was offered a full-time position at one of the worlds leading global asset management companies.  Helped educate our retail investors in making better decisions to achieve their investment goals."
+      },
+      {
+        "company":"Stockmans Bar and Cafe",
+        "title":"Bartender",
+        "years":"June 2018 - August 2019",
+        "description":"Had a great experience serving regulars their favorite cocktails as well as building raport with newcommers to our bar"
+      }
+    ],
+    "skills":[
+    {
+        "name":"ReactJs",
+        "level":"80%"
+    },
+    {
+        "name":"CSS",
+        "level":"80%"
+    },
+    {
+        "name":"NodeJs",
+        "level":"50%"
+    },
+    {
+      "name":"Python",
+      "level":"10%"
+    }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"OMBD Movies and Videogames Database",
+        "category":"A React app that utilizes the OMDB open API, and my own CSS from scratch",
+        "image":"omdb.jpg",
+        "url":"https://application-movie.herokuapp.com"
+      },
+      {
+        "title":"HouseKeeper",
+        "category":"A full-stack MERN application, utilizing Materializecss.  Track your house activity, add house members, other pages in the work.",
+        "image":"housefeed.jpg",
+        "url":"https://roommate-log.herokuapp.com/register"
+      },
+      {
+        "title":"Crypto Currency Dashboard",
+        "category":"A crypto currency dashboard React app displaying my three favorite coins, newsfeed on the side, trading signal included.",
+        "image":"crypto.jpg",
+        "url":"https://cryptoboards.herokuapp.com/"
+      },
+      {
+        "title":"Nasa Astronomy Picture of the Day",
+        "category":"A React based website that fetches Nasa's APOD with an explanation of the video or picture.",
+        "image":"apod.jpg",
+        "url":"https://nas-apod.herokuapp.com/"
+      }
+    ]
+  }
+}
