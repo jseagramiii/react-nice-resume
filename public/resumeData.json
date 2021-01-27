@@ -4,7 +4,7 @@
     "description":"Welcome to my portfolio website.  Thank you so much for visiting",
     "image":"profilepic.jpg",
     "bio":"Front-end engineer with back-end knowledge and experience using react and node.js to create web applications.  Lover of all things outdoors.  Continually learning.  Curious about technology and where we are heading.",
-    "contactmessage":"I would love to get in contact with you.  Please fill out the form below to reach me via email.",
+    "contactmessage":"I would love to get in contact with you.  Please fill out the form below to send me a message.",
     "email": "james.seagram@protonmail.com",
     "phone": "(313) 820-0895",
     "github":"https://github.com/jseagramiii",
@@ -15,7 +15,7 @@
       "zip": "80206"
     },
     "website": "https://james-seagram.herokuapp.com",
-    "resumedownload":"",
+    "resumedownload":"https://drive.google.com/file/d/1K1oQ6mS2crszNlv0xM1CvU5wQPy837ph/view?usp=sharing",
     "social":[
       {
         "name":"linkedin",
@@ -44,23 +44,23 @@
         "company":"Janus Henderson Investors",
         "title":"Senior Investor Services Specialist",
         "years":"September 2019 - July 2019",
-        "description":"I began as a contract employee, ranking at the top of my class for three consecutive months until I was offered a full-time position at one of the worlds leading global asset management companies.  Helped educate our retail investors in making better decisions to achieve their investment goals."
+        "description":"I began as a contract employee, ranking at the top of my class for three consecutive months until I was offered a full-time position at one of the worlds leading global asset management companies.  I educated our retail investors in making better decisions to achieve their investment goals.  Obtained series 6 and SIE."
       },
       {
         "company":"Stockmans Bar and Cafe",
         "title":"Bartender",
         "years":"June 2018 - August 2019",
-        "description":"Had a great experience serving regulars their favorite cocktails as well as building raport with newcommers to our bar"
+        "description":"I had a wonderful experience serving regulars their favorite cocktails and working as a team with the other bartenders.  "
       }
     ],
     "skills":[
     {
         "name":"ReactJs",
-        "level":"80%"
+        "level":"85%"
     },
     {
         "name":"CSS",
-        "level":"80%"
+        "level":"85%"
     },
     {
         "name":"NodeJs",
@@ -76,13 +76,13 @@
     "projects": [
       {
         "title":"OMBD Movies and Videogames Database",
-        "category":"A React app that utilizes the OMDB open API, and my own CSS from scratch",
+        "category":"A React app that utilizes the OMDB open API, and vanilla CSS.",
         "image":"omdb.jpg",
         "url":"https://application-movie.herokuapp.com"
       },
       {
         "title":"HouseKeeper",
-        "category":"A full-stack MERN application, utilizing Materializecss.  Track your house activity, add house members, other pages in the work.",
+        "category":"A full-stack MERN application, utilizing Materializecss and React's Context API for state management.  Track your house activity, add house members, other pages in the work.",
         "image":"housefeed.jpg",
         "url":"https://roommate-log.herokuapp.com/register"
       },
