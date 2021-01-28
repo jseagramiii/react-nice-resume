@@ -3,7 +3,7 @@
     "name":"James Seagram",
     "description":"Welcome to my portfolio website.  Thank you so much for visiting",
     "image":"profilepic.jpg",
-    "bio":"Front-end engineer with back-end knowledge and experience using react and node.js to create web applications.  Lover of all things outdoors.  Continually learning.  Curious about technology and where we are heading.",
+    "bio":"Front-end engineer with back-end knowledge and experience using react and node.js to create web applications.  Lover of all things outdoors.  Continually learning, willing to learn any technology stack if it can be used to create/improve a project.  Curious about technology and where we are heading.",
     "contactmessage":"I would love to get in contact with you.  Please fill out the form below to send me a message.",
     "email": "james.seagram@protonmail.com",
     "phone": "(313) 820-0895",
@@ -19,7 +19,7 @@
     "social":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com",
+        "url":"https://www.linkedin.com/in/james-seagram-ba1410205",
         "className":"fa fa-linkedin"
       },
       {
@@ -34,7 +34,7 @@
     "education":[
       {
         "school":"University of Montana",
-        "degree":"Bachelors of Science - Business Finance",
+        "degree":"Bachelor of Science - Business Finance",
         "graduated":"May 2019",
         "description":"Knowledge of financial markets, investment strategy, and the practical application of economic theories and analysis. My experience at UM was one of the best times of my life. Go Griz! "
       }
