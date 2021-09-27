@@ -1,15 +1,6 @@
 import React, { Component } from 'react'
 
 class Resume extends Component {
-  getRandomColor() {
-    var letters = '0123456789ABCDEF'
-    var color = '#'
-    for (var i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)]
-    }
-    return color
-  }
-
   render() {
     if (this.props.data) {
       var skillmessage = this.props.data.skillmessage
@@ -39,18 +30,12 @@ class Resume extends Component {
       })
 
       var skills = this.props.data.skills.map((skills) => {
-        var className = 'bar-expand ' + skills.name.toLowerCase()
         return (
-          <li key={skills.name}>
-            <span
-              style={{
-                width: skills.level,
-                backgroundColor: this.getRandomColor(),
-              }}
-              className={className}
-            ></span>
-            <em>{skills.name}</em>
-          </li>
+          <div style={{ marginTop: '3.5em' }}>
+            <li key={skills.name}>
+              <img src={skills.img} alt={skills.name} />
+            </li>
+          </div>
         )
       })
     }
@@ -91,14 +76,21 @@ class Resume extends Component {
           <div className='nine columns main-col'>
             <p>{skillmessage}</p>
 
-            <div className='bars'>
-              <ul className='skills'>{skills}</ul>
+            <div>
+              <ul style={logoStyle} className='skills'>
+                {skills}
+              </ul>
             </div>
           </div>
         </div>
       </section>
     )
   }
+}
+const logoStyle = {
+  display: 'grid',
+  gridTemplateColumns: 'repeat(4, 1fr)',
+  gridGap: '2em',
 }
 
 export default Resume

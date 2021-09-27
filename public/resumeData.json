@@ -9,13 +9,13 @@
     "phone": "(313) 820-0895",
     "github":"https://github.com/jseagramiii",
     "address":{
-      "street":"1300 Adams St",
-      "city":"Denver",
-      "state":"Colorado",
-      "zip": "80206"
+      "street":"",
+      "city":"Missoula",
+      "state":"Montana",
+      "zip": "59801"
     },
     "website": "https://james-seagram.herokuapp.com",
-    "resumedownload":"https://drive.google.com/file/d/1K1oQ6mS2crszNlv0xM1CvU5wQPy837ph/view?usp=sharing",
+    "resumedownload":"https://drive.google.com/file/d/1q62r-2LGY2tOCfXJBh_rh6KoMOoPN6x5/view?usp=sharing",
     "social":[
       {
         "name":"linkedin",
@@ -30,7 +30,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Web development technology including: HTML5, Javascript, CSS, ReactJs, nodeJs, express, serverless technology, and CSS libraries/frameworks (Materialize, Chakra)",
+    "skillmessage":"Web development technology: HTML5, Javascript, Java, CSS, ReactJs, nodeJs, express, Apex, Lightning Web Components",
     "education":[
       {
         "school":"University of Montana",
@@ -41,34 +41,54 @@
     ],
     "work":[
       {
-        "company":"Janus Henderson Investors",
-        "title":"Senior Investor Services Specialist",
-        "years":"September 2019 - July 2019",
-        "description":"I began as a contract employee, ranking at the top of my class for three consecutive months until I was offered a full-time position at one of the worlds leading global asset management companies.  I educated our retail investors in making better decisions to achieve their investment goals.  Obtained series 6 and SIE."
+        "company":"ATG/Cognizant",
+        "title":"AIM Salesforce Consultant Trainee",
+        "years":"March 2021 - June 2021",
+        "description":"Completed training program with areas of focus in Business Essentials, Consulting, Systems Analysis and Design, Data Analytics, Project Management, Information Infrastructures and programmatic extension of the Salesforce Platform using Apex and the Lightning Web Component framework.  Focus on cloud and IT basics with an emphasis on the Salesforce Platform."
       },
       {
-        "company":"Stockmans Bar and Cafe",
-        "title":"Bartender",
-        "years":"June 2018 - August 2019",
-        "description":"I had a wonderful experience serving regulars their favorite cocktails and working as a team with the other bartenders.  "
+        "company":"Janus Henderson Investors",
+        "title":"Senior Investment Specialist",
+        "years":"September 2019 - July 2020",
+        "description":"I began as a contract employee, ranking at the top of my class for three consecutive months until I was offered a full-time position at one of the worlds leading global asset management companies.  I educated our retail investors in making better decisions to achieve their investment goals.  Obtained series 6 and SIE."
       }
     ],
     "skills":[
     {
         "name":"ReactJs",
-        "level":"85%"
+        "img": "https://img.icons8.com/ultraviolet/80/000000/react.png"
     },
     {
         "name":"CSS",
-        "level":"85%"
+        "img": "https://img.icons8.com/dusk/64/000000/css3.png"
     },
     {
         "name":"NodeJs",
-        "level":"50%"
+        "img": "https://img.icons8.com/windows/64/000000/nodejs.png"
     },
     {
-      "name":"Python",
-      "level":"10%"
+      "name":"Java",
+      "img": "https://img.icons8.com/dusk/64/000000/python.png"
+    },
+    {
+        "name":"HTML5",
+        "img": "https://img.icons8.com/color/96/000000/html-5.png"
+    },
+    {
+        "name":"MongoDB",
+        "img": "https://img.icons8.com/color/96/000000/mongodb.png"
+    },
+    {
+        "name":"Javascript",
+        "img": "https://img.icons8.com/color/96/000000/javascript.png"
+    },
+    {
+        "name":"npm",
+        "img": "https://img.icons8.com/color/96/000000/npm.png"
+    },
+    {
+        "name":"SFDC",
+        "img": "https://img.icons8.com/dusk/64/000000/salesforce.png"
     }
     ]
   },

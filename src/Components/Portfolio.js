@@ -28,7 +28,9 @@ class Portfolio extends Component {
       <section id='portfolio'>
         <div className='row'>
           <div className='twelve columns collapsed'>
-            <h1>Check Out Some of My Work.</h1>
+            <h1>
+              Check Out Some of My Work. A short delay may happen on app loading{' '}
+            </h1>
 
             <div
               id='portfolio-wrapper'
